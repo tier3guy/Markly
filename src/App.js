@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
 
-  const [markdownText, setMarkdownText] = useState(`# Project Title
+  const [markdownText, setMarkdownText] = useState(`# Edit your code here
 
   A brief description of what this project does and who it's for
   
