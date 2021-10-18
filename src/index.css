@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*--- Importing Noto-Sans-Mono font family ---*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+:root{
+  /*--- Declaring font family ---*/
+  --font-main : 'Noto Sans Mono';
+
+  /*--- Declaring colors schema ---*/
+  --black : #000000;
+  --bg-main : #8aff5c;
+  --bg-dark : #35aa07c5;
+  --light : #52ff0df1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*--- Body settings ---*/
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+  font-family: var(--font-main), monospace;
+}
+
+/*--- Defining Body CSS ---*/
+body{
+  background: var(--black);
+  color: var(--light);
+}
+
+/*--- Styling window scrollbar ---*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-main);
+
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-main);
 }
