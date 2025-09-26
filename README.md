@@ -31,7 +31,7 @@ Markly provides a clean and intuitive interface for writing Markdown. You can ty
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/markly.git
+git clone https://github.com/tier3guy/markly.git
 ````
 
 2. Install dependencies:
